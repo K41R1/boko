@@ -1,0 +1,11 @@
+# File can be improved by seperating build stages and 
+# move build.sh script HERE
+# for more info visit travis-ci docs
+# https://docs.travis-ci.com/user/docker/
+# https://docs.travis-ci.com/user/build-stages/
+# https://docs.travis-ci.com/user/job-lifecycle/
+
+language: java
+sudo: false # faster builds
+
+script: ./build.sh
